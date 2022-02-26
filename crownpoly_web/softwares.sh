@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script is for installing multiple softwares. 
 sudo yum install tree wget unzip -y
 sudo yum install httpd -y
 sudo systemctl start httpd
